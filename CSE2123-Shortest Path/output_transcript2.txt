@@ -1,0 +1,57 @@
+Enter a filename with paths: 
+Start City     Paths
+-------------- ------------------------------
+Atlanta        (StLouis:1.0), (Dallas:1.5), (Miami:1.0)
+Boston         (Chicago:2.0), (NewYork:0.5)
+Chicago        (Columbus:0.5), (NewYork:1.5), (Boston:2.0), (StLouis:0.5), (Denver:2.5), (Seattle:3.0)
+Columbus       (Chicago:0.5), (Miami:2.0)
+Dallas         (StLouis:1.0), (Atlanta:1.5), (Miami:2.0), (LosAngeles:2.5)
+Denver         (Chicago:2.5), (SanFrancisco:2.0), (LasVegas:1.0), (Seattle:2.0)
+LasVegas       (LosAngeles:0.5), (SanFrancisco:1.0), (Denver:1.0)
+LosAngeles     (Dallas:2.5), (SanFrancisco:1.0), (LasVegas:0.5)
+Miami          (Columbus:2.0), (Atlanta:1.0), (Dallas:2.0)
+NewYork        (Chicago:1.5), (Boston:0.5)
+SanFrancisco   (LosAngeles:1.0), (LasVegas:1.0), (Seattle:2.0), (Denver:2.0)
+Seattle        (Chicago:3.0), (SanFrancisco:2.0), (Denver:2.0)
+StLouis        (Chicago:0.5), (Atlanta:1.0), (Dallas:1.0)
+
+Enter a start city (empty line to quit): 
+
+Distances from Boston to each city:
+Dest. City     Distance
+-------------- --------
+StLouis            2.50
+SanFrancisco       6.50
+Seattle            5.00
+Chicago            2.00
+Miami              4.50
+LasVegas           5.50
+Atlanta            3.50
+NewYork            0.50
+Columbus           2.50
+Denver             4.50
+LosAngeles         6.00
+Dallas             3.50
+Boston             0.00
+
+Enter a start city (empty line to quit): 
+
+Distances from Miami to each city:
+Dest. City     Distance
+-------------- --------
+StLouis            2.00
+SanFrancisco       5.50
+Seattle            5.50
+Chicago            2.50
+Miami              0.00
+LasVegas           5.00
+Atlanta            1.00
+Columbus           2.00
+NewYork            4.00
+LosAngeles         4.50
+Denver             5.00
+Dallas             2.00
+Boston             4.50
+
+Enter a start city (empty line to quit): 
+Goodbye!
